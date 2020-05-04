@@ -1,0 +1,171 @@
+/***** TAG SELECTORS ******/
+
+body {
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    /* width: 1440px; */
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+/****** CLASS SELECTORS ******/
+
+.container-1 {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.container-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.container-1-menu {
+    position: absolute;
+    right: 3rem;
+}
+.logo-top {
+    position: absolute;
+    left: 3rem;
+    width: 10%;
+}
+
+
+.container-2 {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 225px;
+}
+.illustration-intro {
+    margin: 2rem;
+    width: 45%;
+}
+.container-2 h1 {
+    font-size: 2rem;
+    width: 45%;
+    margin: 0 auto;
+}
+.container-2 p {
+    width: 35%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.btn-top {
+    background-color: hsl(198, 60%, 50%);
+    border-radius:28px;
+    border:1px solid  hsl(198, 60%, 50%);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    padding:15px 76px;
+    text-decoration:none;
+    background:linear-gradient(to right,  hsl(176, 68%, 64%) 5%,  hsl(198, 60%, 50%) 100%);
+}
+.btn-top:hover {
+    background:linear-gradient(to right, hsl(198, 60%, 50%)  5%,  hsl(176, 68%, 64%) 100%);
+    background-color: hsl(198, 60%, 50%) ;
+}
+.btn-top:active {
+    position:relative;
+    top:1px;
+}
+
+
+.container-3 {
+    background-color: hsl(218, 28%, 13%);
+    margin-top: 0;
+}
+.container-3 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+.container-3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.access {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 0 50px 50px 50px;
+}
+.security {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 0 50px 50px 50px;
+}
+
+
+.container-4 {
+    background-color: hsl(218, 28%, 13%);
+}
+.container-4 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+.container-4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.collaboration {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 0 50px 100px 50px;
+}
+.store {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 0 50px 100px 50px;
+}
+
+
+.container-5 {
+    background-color: hsl(218, 28%, 13%);
+    margin: 0 0;
+}
+.container-5 h1 {
+    font-size: 2rem;
+}
+.image-stay-productive {
+    display: inline-block;
+    position: relative;
+    
+}
+.stay-productive {
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    text-align: left;
+    padding: 0 0 0 50px;
+}
+.image-stay-productive {
+    display: inline-block;
+    position: relative;
+}
+.stay-productive {
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    text-align: left;
+    padding: 0 0 0 50px;
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+/****** ID SELECTORS ******/
