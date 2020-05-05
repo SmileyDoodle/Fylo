@@ -181,7 +181,7 @@ body {
 
 .container-6 {
     background-color: hsl(218, 28%, 13%);
-    padding: 120px 0 200px 0;
+    padding: 120px 0 330px 0;
 }
 .bg-quotes {
     position: relative;
@@ -227,16 +227,24 @@ body {
     background-color: hsl(217, 28%, 15%);
     border-radius: 5px;
     box-shadow: 8px 5px 8px 0px hsl(216, 53%, 9%);
-    padding: 30px 100px 30px 100px;
+    padding: 30px 50px 30px 50px;
     position: absolute;
     left: 0;
     right: 0;
-    transform: translateY(-120px);
+    transform: translateY(-160px);
     margin: auto;
-    width: 45%;
+    width: 55%;
+    z-index: 1;
 }
 .container-7 h1 {
     margin-top: 0;
+}
+.container-7 p {
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+.get-started {
+    width: 100%;
 }
 .email {
     background-color: white;
@@ -244,13 +252,15 @@ body {
     border:1px solid hsl(216, 53%, 9%);
     display:inline-block;
     cursor:pointer;
-    color: gray;
+    color: lightgray;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: x-small;
-    padding:15px 140px;
+    padding: 18px 20px 18px 20px;
     text-decoration:none;
-    margin: 10px 35px 0 0;
+    margin: 10px 20px 0 0;
+    text-align: left;
+    width: 55%;
 }
 .btn-start {
     background-color: hsl(198, 60%, 50%);
@@ -264,6 +274,7 @@ body {
     font-size: 14px;
     padding:15px 30px;
     text-decoration:none;
+    width: 20%;
     background:linear-gradient(to right,  hsl(176, 68%, 64%) 5%,  hsl(198, 60%, 50%) 100%);
 }
 .btn-start:hover {
@@ -280,6 +291,122 @@ body {
 .container-8 {
     background-color: hsl(216, 53%, 9%);
 }
-
+.logo-bottom {
+    padding-top: 200px;
+    display: inline-block;
+    position: relative;
+    width: 85%;
+    text-align: left;
+}
+.logo-bottom img {
+    width: 12%;
+}
+.information {
+    display: inline-block;
+    position: relative;
+    margin: 30px 0 100px 0;
+    width: 85%;
+    text-align: left;
+}
+.location {
+    display: inline-block;
+    position: relative;
+    width: 3%;
+    margin-top: 5px;
+    vertical-align: top;
+    text-align: left;
+}
+.location-2 {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    text-align: left;
+    padding-right: 60px;
+    margin: 0;
+    vertical-align: top;
+}
+.location-2 p {
+    margin: 0;
+}
+.contact {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    vertical-align: top;
+}
+.contact-phone {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact-phone img {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.contact-phone p {
+    display: inline-block;
+    position: relative;
+    padding: 0 5px 0 30px;
+    margin: 0;
+    font-size: small;
+}
+.contact-email {
+    display: block;
+    position: relative;
+}
+.contact-email img {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.contact-email p {
+    display: inline-block;
+    position: relative;
+    padding: 0 5px 0 30px;
+    margin: 0;
+    font-size: small;
+}
+.site-map-1 {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    text-align: left;
+}
+.site-map-1 p {
+    margin-top: 0;
+    vertical-align: top;
+}
+.site-map-2 {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 110px;
+}
+.site-map-2 p {
+    margin-top: 0;
+}
+.social-media {
+    display: inline-block;
+    position: relative;
+    width: 11%;
+    vertical-align: top;
+    text-align: right;
+    border-radius: 50%;
+}
+.social-media div {
+    border: 1px solid white;
+    border-radius: 50%;;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 5px;
+    display: inline-block;
+}
+.social-media img {
+    width: 100%;
+}
 
 /****** ID SELECTORS ******/
